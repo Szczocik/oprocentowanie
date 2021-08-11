@@ -1,5 +1,5 @@
 # oprocentowanie
-Stwórz *program*, który na podstawie tabeli inflacji wartości oprocentowania kredytu, kwoty początkowej kredytu i stałej wartości raty wyliczy wartość zadłużenia w każdym miesiącu przez 2 nadchodzące lata.
+Stwórz *program*, który na podstawie tabeli inflacji wartości oprocentowania kredytu, kwoty początkowej kredytu i stałej wartości raty wyliczy **wartość zadłużenia** w każdym miesiącu przez 2 nadchodzące lata.
 
 Niech program wydrukuje dla każdego miesiąca następującą linię:
 Twoja pozostała kwota kredytu to X, to Y mniej niż w poprzednim miesiącu.
