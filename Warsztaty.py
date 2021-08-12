@@ -2,8 +2,10 @@
 """
 Wzor na BMI to ...
 """
-'''
-test = '''
-'''
-print(test)
-print('podaj swoja wage :')
+
+waga = float(input('Podaj swoja wage [kg]:'))
+wzrost_cm = float(input('Podaj swoj wzrost [cm]:'))
+wzrost = wzrost_cm / 100.0
+bmi = waga / wzrost**2
+print(f'BMI dla wzrostu {wzrost} i wagi {waga} wynosi {bmi}')
+
