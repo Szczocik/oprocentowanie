@@ -51,6 +51,57 @@ grudzien1_inflacja = 0.337779545187098
 grudzien1_pozostalo = (1 + ((grudzien1_inflacja + float(procent))/1200)) * listopad1_pozostalo - float(rata)
 grudzien1_roznica = listopad1_pozostalo - grudzien1_pozostalo
 
+styczen2_inflacja = 1.57703524727525
+styczen2_pozostalo = (1 + ((styczen2_inflacja + float(procent))/1200)) * grudzien1_pozostalo - float(rata)
+styczen2_roznica = grudzien1_pozostalo - styczen2_pozostalo
+
+luty2_inflacja = -0.292781442607648
+luty2_pozostalo = (1 + ((luty2_inflacja + float(procent))/1200)) * styczen2_pozostalo - float(rata)
+luty2_roznica = styczen2_pozostalo - luty2_pozostalo
+
+marzec2_inflacja = 2.48619659017508
+marzec2_pozostalo = (1 + ((marzec2_inflacja + float(procent))/1200)) * luty2_pozostalo - float(rata)
+marzec2_roznica = luty2_pozostalo - marzec2_pozostalo
+
+kwiecien2_inflacja = 0.267110317834564
+kwiecien2_pozostalo = (1 + ((kwiecien2_inflacja + float(procent))/1200)) * marzec2_pozostalo - float(rata)
+kwiecien2_roznica = marzec2_pozostalo - kwiecien2_pozostalo
+
+maj2_inflacja = 1.41795267229799
+maj2_pozostalo = (1 + ((maj2_inflacja + float(procent))/1200)) * kwiecien2_pozostalo - float(rata)
+maj2_roznica = kwiecien2_pozostalo - maj2_pozostalo
+
+czerwiec2_inflacja = 1.05424326726375
+czerwiec2_pozostalo = (1 + ((czerwiec2_inflacja + float(procent))/1200)) * maj2_pozostalo - float(rata)
+czerwiec2_roznica = maj2_pozostalo - czerwiec2_pozostalo
+
+lipiec2_inflacja = 1.4805201044812
+lipiec2_pozostalo = (1 + ((lipiec2_inflacja + float(procent))/1200)) * czerwiec2_pozostalo - float(rata)
+lipiec2_roznica = czerwiec2_pozostalo - lipiec2_pozostalo
+
+sierpien2_inflacja = 1.57703524727525
+sierpien2_pozostalo = (1 + ((sierpien2_inflacja + float(procent))/1200)) * lipiec2_pozostalo - float(rata)
+sierpien2_roznica = lipiec2_pozostalo - sierpien2_pozostalo
+
+wrzesien2_inflacja = -0.0774206903147018
+wrzesien2_pozostalo = (1 + ((wrzesien2_inflacja + float(procent))/1200)) * sierpien2_pozostalo - float(rata)
+wrzesien2_roznica = sierpien2_pozostalo - wrzesien2_pozostalo
+
+pazdziernik2_inflacja = 1.16573339872354
+pazdziernik2_pozostalo = (1 + ((pazdziernik2_inflacja + float(procent))/1200)) * wrzesien2_pozostalo - float(rata)
+pazdziernik2_roznica = wrzesien2_pozostalo - pazdziernik2_pozostalo
+
+listopad2_inflacja = -0.404186717638335
+listopad2_pozostalo = (1 + ((listopad2_inflacja + float(procent))/1200)) * pazdziernik2_pozostalo - float(rata)
+listopad2_roznica = pazdziernik2_pozostalo - listopad2_pozostalo
+
+grudzien2_inflacja = 1.49970852083123
+grudzien2_pozostalo = (1 + ((grudzien2_inflacja + float(procent))/1200)) * listopad2_pozostalo - float(rata)
+grudzien2_roznica = listopad2_pozostalo - grudzien2_pozostalo
+
+
+
+
 print('Twoja pozostała kwota kredytu to:', styczen1_pozostalo,', to:', styczen1_roznica, 'mniej niż w poprzednim miesiącu.')
 print('Twoja pozostała kwota kredytu to:', luty1_pozostalo,', to:', luty1_roznica, 'mniej niż w poprzednim miesiącu.')
 print('Twoja pozostała kwota kredytu to:', marzec1_pozostalo,', to:', marzec1_roznica, 'mniej niż w poprzednim miesiącu.')
@@ -63,3 +114,15 @@ print('Twoja pozostała kwota kredytu to:', wrzesien1_pozostalo,', to:', wrzesie
 print('Twoja pozostała kwota kredytu to:', pazdziernik1_pozostalo,', to:', pazdziernik1_roznica, 'mniej niż w poprzednim miesiącu.')
 print('Twoja pozostała kwota kredytu to:', listopad1_pozostalo,', to:', listopad1_roznica, 'mniej niż w poprzednim miesiącu.')
 print('Twoja pozostała kwota kredytu to:', grudzien1_pozostalo,', to:', grudzien1_roznica, 'mniej niż w poprzednim miesiącu.')
+print('Twoja pozostała kwota kredytu to:', styczen2_pozostalo,', to:', styczen2_roznica, 'mniej niż w poprzednim miesiącu.')
+print('Twoja pozostała kwota kredytu to:', luty2_pozostalo,', to:', luty2_roznica, 'mniej niż w poprzednim miesiącu.')
+print('Twoja pozostała kwota kredytu to:', marzec2_pozostalo,', to:', marzec2_roznica, 'mniej niż w poprzednim miesiącu.')
+print('Twoja pozostała kwota kredytu to:', kwiecien2_pozostalo,', to:', kwiecien2_roznica, 'mniej niż w poprzednim miesiącu.')
+print('Twoja pozostała kwota kredytu to:', maj2_pozostalo,', to:', maj2_roznica, 'mniej niż w poprzednim miesiącu.')
+print('Twoja pozostała kwota kredytu to:', czerwiec2_pozostalo,', to:', czerwiec2_roznica, 'mniej niż w poprzednim miesiącu.')
+print('Twoja pozostała kwota kredytu to:', lipiec2_pozostalo,', to:', lipiec2_roznica, 'mniej niż w poprzednim miesiącu.')
+print('Twoja pozostała kwota kredytu to:', sierpien2_pozostalo,', to:', sierpien2_roznica, 'mniej niż w poprzednim miesiącu.')
+print('Twoja pozostała kwota kredytu to:', wrzesien2_pozostalo,', to:', wrzesien2_roznica, 'mniej niż w poprzednim miesiącu.')
+print('Twoja pozostała kwota kredytu to:', pazdziernik2_pozostalo,', to:', pazdziernik2_roznica, 'mniej niż w poprzednim miesiącu.')
+print('Twoja pozostała kwota kredytu to:', listopad2_pozostalo,', to:', listopad2_roznica, 'mniej niż w poprzednim miesiącu.')
+print('Twoja pozostała kwota kredytu to:', grudzien2_pozostalo,', to:', grudzien2_roznica, 'mniej niż w poprzednim miesiącu.')
