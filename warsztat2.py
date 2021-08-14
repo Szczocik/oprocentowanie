@@ -11,3 +11,4 @@ number_count = 5
 srednia = (number1 + number2 + number3 + number4 + number5 + number_count)
 print(srednia)
 
+
